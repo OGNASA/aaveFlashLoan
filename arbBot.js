@@ -14,7 +14,7 @@ require('dotenv').config();
 
 let data, output;
 
-TRADELIVE = false;                                                        // Change this to true to execute trades
+TRADELIVE = true;                                                        // Change this to true to execute trades
 
 BigNumber.set({ DECIMAL_PLACES: 18});
 
